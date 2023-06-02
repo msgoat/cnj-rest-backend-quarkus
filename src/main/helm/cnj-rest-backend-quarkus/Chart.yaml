@@ -1,0 +1,6 @@
+apiVersion: v2
+name: cnj-rest-backend-quarkus
+description: "${project.description}"
+type: application
+version: ${revision}
+appVersion: "${project.version}"
