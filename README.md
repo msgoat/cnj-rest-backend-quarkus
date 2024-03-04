@@ -2,6 +2,10 @@
 
 Cloud native Java backend based on Quarkus using JAX-RS, JSON-B and [MP Rest Client](https://github.com/eclipse/microprofile-rest-client) to expose and consume REST endpoints.
 
+The application is packaged as a multi-architecture docker image which supports the following platforms:
+* linux/amd64
+* linux/arm64/v8
+
 ## Synopsis
 
 Please check [Maven POM](pom.xml) for details on how-to integrate `MicroProfile REST Client`
@@ -61,6 +65,10 @@ A changelog can be found in [changelog.md](changelog.md).
 ## Docker Pull Command
 
 `docker pull docker.cloudtrain.aws.msgoat.eu/cloudtrain/cnj-rest-backend-quarkus`
+
+## Helm Pull Command
+
+`helm pull oci://docker.cloudtrain.aws.msgoat.eu/cloudtrain-charts/cnj-rest-backend-quarkus`
 
 ## HOW-TO build this application locally
 
