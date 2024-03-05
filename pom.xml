@@ -128,9 +128,11 @@
             <groupId>io.quarkus</groupId>
             <artifactId>quarkus-smallrye-jwt</artifactId>
         </dependency>
-        <!-- =========================== -->
-        <!-- test time dependencies      -->
-        <!-- =========================== -->
+        <!-- showcase specific section -->
+        <dependency>
+            <groupId>io.quarkus</groupId>
+            <artifactId>quarkus-rest-client-reactive-jackson</artifactId>
+        </dependency>
         <dependency>
             <groupId>group.msg.at.cloud.common</groupId>
             <artifactId>cnj-common-rest-jakarta</artifactId>
